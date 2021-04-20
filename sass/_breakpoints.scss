@@ -1,0 +1,489 @@
+@use 'variables' as *;
+
+@media only screen and (max-width: 87.5em) {
+  .gallery {
+    &__band {
+      opacity: 0.5;
+    }
+
+    .infos {
+      width: 95%;
+    }
+
+    &__images {
+      height: auto;
+    }
+  }
+
+  .new {
+    &__band {
+      left: 2%;
+    }
+
+    &__upper {
+      &-text {
+        width: 100%;
+      }
+
+      &-img {
+        width: 40%;
+      }
+      .wrapper {
+        margin-left: 0;
+        margin-right: auto;
+        width: 60%;
+      }
+    }
+    &__bottom {
+      .wrapper {
+        width: 90%;
+
+        .item {
+          .title {
+            font-size: 2.2rem;
+          }
+          .text {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .masterclass {
+    &__container {
+      .button {
+        .btn {
+          font-size: 2.4rem;
+          padding: 1.5rem 25rem 1.5rem 2rem;
+        }
+      }
+    }
+    &__card {
+      width: 60%;
+
+      &-title,
+      &-subtitle {
+        font-size: 3.2rem;
+      }
+    }
+
+    .price-time {
+      .price,
+      .time {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
+  .gallery {
+    &__band {
+      display: none;
+    }
+
+    &__images {
+      height: auto;
+    }
+
+    .infos {
+      width: 70rem;
+
+      .content {
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      &__text {
+        width: 100%;
+        padding: 0 1rem;
+        text-align: center;
+        margin-bottom: 6rem;
+      }
+
+      &__socials {
+        text-align: center;
+      }
+    }
+  }
+
+  .new {
+    &__upper {
+      .wrapper {
+        width: 100%;
+        justify-content: center;
+      }
+
+      &-text {
+        width: 60%;
+      }
+      &-img {
+        display: none;
+      }
+    }
+  }
+
+  .menu {
+    .container-dishes {
+      width: 90%;
+      margin: 14rem auto 0 auto;
+    }
+
+    .wrapper-especials {
+      padding-left: 4rem;
+    }
+  }
+
+  .masterclass {
+    &__container {
+      h3 {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .header {
+    .burger {
+      display: block;
+    }
+
+    &__text {
+      flex-direction: column;
+
+      h1 {
+        font-size: 6rem;
+        width: 40rem;
+      }
+
+      a {
+        margin-top: 2rem;
+        align-self: center;
+      }
+    }
+
+    .main-nav {
+      &__item {
+        display: none;
+      }
+    }
+  }
+
+  .concept {
+    .text,
+    .title,
+    &__nav {
+      width: 90%;
+      text-align: center;
+    }
+
+    &__nav {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      a {
+        margin: 1rem;
+      }
+    }
+  }
+
+  .new {
+    &__band {
+      display: none;
+    }
+
+    &__bottom {
+      height: auto;
+    }
+
+    &__upper {
+      &-title {
+        transform: rotate(0);
+        padding: 2rem;
+        background-color: $color-primary;
+        width: auto;
+        font-size: 3rem;
+      }
+
+      &-text p,
+      &-text h3 {
+        margin-bottom: 3rem;
+      }
+
+      &-text h3 {
+        font-size: 2.6rem;
+      }
+
+      &-text p {
+        font-size: 2rem;
+      }
+    }
+
+    .wrapper {
+      flex-direction: column;
+      margin: 5rem auto;
+      text-align: center;
+      justify-content: space-evenly;
+      width: 95%;
+
+      .item:not(:last-child) {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+
+  .menu {
+    &__title {
+      font-size: 4rem;
+    }
+  }
+
+  .masterclass {
+    &__card {
+      width: 75%;
+    }
+  }
+
+  .gallery {
+    .title {
+      font-size: 4rem;
+    }
+
+    .infos {
+      width: 95%;
+
+      h3 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .footer {
+    .wrapper {
+      width: 95%;
+
+      .about h3,
+      .footer__menu h4 {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 30em) {
+  .header {
+    .logo-band {
+      width: 45%;
+    }
+
+    &__text {
+      width: 95%;
+
+      h1 {
+        font-size: 3.6rem;
+        width: min-content;
+      }
+
+      .btn {
+        font-size: 1.8rem;
+        padding: 1.5rem 1rem 1.5rem 2rem;
+      }
+    }
+
+    .main-nav {
+      &__logo {
+        font-size: 2.6rem;
+      }
+    }
+  }
+
+  .new {
+    &__upper-title {
+      font-size: 2.4rem;
+    }
+    &__upper-text {
+      width: 80%;
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+    }
+
+    .wrapper {
+      .item {
+        width: 90%;
+      }
+    }
+
+    &__bottom {
+      .wrapper {
+        .item {
+          .text {
+            font-size: 1.6rem;
+          }
+
+          .title {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .menu {
+    &__logo {
+      font-size: 2.6rem;
+    }
+
+    .container {
+      margin: 0 auto;
+    }
+    &__title {
+      font-size: 2.2rem;
+      margin-top: -8rem;
+
+      &__box {
+        padding-bottom: 3rem;
+      }
+    }
+
+    &__item {
+      font-size: 1.6rem;
+    }
+
+    .container-especials {
+      .especial {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  .concept {
+    padding: 8rem 2rem;
+
+    .title {
+      font-size: 2.4rem;
+    }
+
+    .text {
+      font-size: 1.8rem;
+    }
+
+    &__nav a {
+      font-size: 1.6rem;
+    }
+  }
+
+  .masterclass {
+    &__container {
+      width: 90%;
+
+      h3 {
+        font-size: 2.4rem;
+      }
+
+      .button {
+        justify-content: center;
+
+        .btn {
+          font-size: 1.8rem;
+          padding: 1rem 3rem 1.5rem 1rem;
+        }
+      }
+    }
+
+    &__card {
+      width: 90%;
+      margin: 0 auto 5rem auto;
+      padding: 4rem;
+
+      &-title,
+      &-subtitle {
+        font-size: 2rem;
+      }
+
+      .price-time {
+        .price,
+        .time {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+
+  .gallery {
+    padding: 5rem 0;
+
+    .title {
+      font-size: 2.4rem;
+    }
+
+    .infos {
+      margin: 6rem auto 0 auto;
+
+      h3 {
+        font-size: 2.4rem;
+      }
+
+      &__text {
+        font-size: 1.6rem;
+      }
+
+      &__socials {
+        width: 90%;
+
+        .social-media p,
+        .website p {
+          font-size: 1.6rem;
+          margin-bottom: 2rem;
+        }
+
+        .icons img {
+          height: 3rem;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .wrapper {
+      flex-direction: column;
+      padding: 4rem 0;
+
+      .about {
+        width: 100%;
+        margin-bottom: 5rem;
+        font-size: 1.6rem;
+
+        p {
+          width: 100%;
+        }
+
+        &__menu {
+          h4 {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+
+    &__menu {
+      margin-bottom: 3rem;
+
+      ul li a {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  .footer .wrapper .footer__menu h4,
+  .footer .wrapper .footer__menu ul li a {
+    font-size: 1.6rem;
+  }
+}

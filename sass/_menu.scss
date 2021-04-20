@@ -1,0 +1,143 @@
+@use 'variables' as *;
+
+.menu {
+  background: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/menu-bg-min.png);
+
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  &__logo {
+    text-align: center;
+    padding: 5rem;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .container {
+    width: 80%;
+    margin-left: auto;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+
+    &__box {
+      border: 2px solid #fff;
+      height: 11rem;
+      width: 100%;
+      padding-bottom: 5rem;
+      padding-top: 1rem;
+    }
+  }
+
+  .container-dishes {
+    font-family: 'Lato';
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 14rem;
+  }
+
+  &__item {
+    display: flex;
+    max-width: 65rem;
+    margin: auto;
+    justify-content: space-between;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    z-index: 10;
+
+    &-name,
+    &-price {
+      z-index: 10;
+    }
+
+    &-price {
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      font-weight: 400;
+
+      span {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  .container-especials {
+    color: #fff;
+    border: 2px solid #fff;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+
+    .especial {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .wrapper-especials {
+    width: 65rem;
+    margin: auto;
+    text-align: left;
+  }
+
+  .yellowbox {
+    height: 28rem;
+    width: 130rem;
+    background-color: $color-primary;
+    position: absolute;
+    top: 50;
+    right: 0;
+    z-index: 1;
+
+    &__band {
+      position: absolute;
+      top: 3rem;
+      left: 79rem;
+      height: 30rem;
+      width: 5rem;
+      background-color: #ffda00;
+      opacity: 0.7;
+      background-blend-mode: screen;
+      color: rgba(#fff, 1);
+    }
+  }
+
+  .especials {
+    padding-bottom: 8rem;
+  }
+}
+
+.price-band {
+  position: relative;
+}
+
+.price-band::before {
+  content: '';
+  height: 30rem;
+  width: 4rem;
+  background-color: #ffda00;
+  opacity: 0.5;
+  position: absolute;
+  top: -1rem;
+  left: 1rem;
+}

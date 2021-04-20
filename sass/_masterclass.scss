@@ -1,0 +1,72 @@
+@use 'variables' as *;
+
+.masterclass {
+  background: url(../img/masterclass-bg-min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  font-family: 'Lato', sans-serif;
+
+  &__container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 8rem 0;
+
+    h3 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      text-align: right;
+      color: #fff;
+      margin-bottom: 10rem;
+    }
+
+    .button {
+      display: flex;
+      justify-content: flex-end;
+
+      .btn {
+        padding: 3.5rem 25rem 1.5rem 2rem;
+      }
+    }
+  }
+
+  &__card {
+    font-size: 3rem;
+    color: #fff;
+    width: 40%;
+
+    margin-bottom: 5rem;
+    margin-left: auto;
+
+    background-color: $color-primary;
+    padding: 7rem 6rem;
+
+    &-title {
+      font-size: 4.5rem;
+      line-height: 1.2;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+
+    &-subtitle {
+      font-size: 5rem;
+      font-weight: 600;
+      margin-bottom: 7rem;
+    }
+
+    .price-time {
+      align-self: flex-end;
+      text-align: right;
+
+      span {
+        font-weight: 600;
+      }
+      .price {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

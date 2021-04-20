@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+.title {
+  font-size: 2.6rem;
+  font-family: $font-title;
+  color: $color-primary;
+  font-weight: 900;
+}
+
+.text {
+  font-family: $font-text;
+  line-height: 1.3;
+}
