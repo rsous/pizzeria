@@ -132,6 +132,7 @@
 
     .wrapper-especials {
       padding-left: 4rem;
+      width: auto;
     }
   }
 
@@ -361,6 +362,11 @@
       .especial {
         font-size: 1.8rem;
       }
+    }
+
+    .container-dishes {
+      margin: 11rem auto 0 auto;
+      width: 85%;
     }
   }
 

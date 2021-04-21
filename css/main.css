@@ -700,6 +700,7 @@ body {
   }
   .menu .wrapper-especials {
     padding-left: 4rem;
+    width: auto;
   }
 
   .masterclass__container h3 {
@@ -856,6 +857,10 @@ body {
   }
   .menu .container-especials .especial {
     font-size: 1.8rem;
+  }
+  .menu .container-dishes {
+    margin: 11rem auto 0 auto;
+    width: 85%;
   }
 
   .concept {
