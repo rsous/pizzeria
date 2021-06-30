@@ -27,7 +27,7 @@
   <h3 align="center">pizzeria</h3>
 
   <p align="center">
-    Webiste for a restaurant
+    Mockup webiste for a restaurant.
     <br />
     <a href="https://github.com/rsous/pizzeria"><strong>Explore the docs »</strong></a>
     <br />
@@ -122,15 +122,12 @@ See the [open issues](https://github.com/rsous/pizzeria/issues) for a list of pr
 
 ## Contact
 
-Rodolfo - [@rsovs](https://twitter.com/rsovs) - rsous@pm.me
+Rodolfo - [@rsovs](https://twitter.com/rsovs) - rsovs@pm.me
 
 Project Link: [https://github.com/rsous/pizzeria](https://github.com/rsous/pizzeria)
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## Acknowledgements
-
-- [alura](https://www.alura.com.br/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
